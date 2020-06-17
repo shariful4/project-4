@@ -1,0 +1,194 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    box-shadow: 0px 0px 6px #0000004a;
+    padding: 20px 0px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header part start here*/
+.logo-part {
+    width: 20%;
+    float: left;
+}
+
+.logo-part-img {}
+
+.menu-part {
+    width: 80%;
+    float: right;
+}
+
+.menu-part ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.menu-part ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu-part ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 23px;
+    padding: 2px 13px;
+    color: #3b506c;
+}
+
+.menu-part ul li a:hover {
+    color: #0c66ff;
+}
+
+/* Header part end here*/
+/* Abou-us start here*/
+.about-us {
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.about-us h1 {
+    font-size: 60px;
+    margin: 0;
+    color: #3b506c;
+}
+
+.about-us h1 span {
+    color: #0c66ff;
+}
+
+.about-us p {
+    color: #3b506c;
+    font-size: 17px;
+}
+
+/* Image part Start Here*/
+.img-part img {
+    display: block;
+    margin: auto;
+    max-width: 450px;
+}
+
+/* Image part End Here*/
+/* Feature part Start here */
+.feature {
+    padding: 50px 0;
+    max-width: 1234px;
+    margin: auto;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+.main-content {
+    padding: 18px;
+}
+
+.left-side {
+    text-align: right;
+    /*! width: 70%; */
+    /*! margin-left: auto; */
+}
+
+.main-content h2 {
+    font-size: 45px;
+    color: #3f3d56;
+    margin: 0;
+    /*! max-width: 241px; */
+}
+
+.main-content h2 span {
+    color: #F15666;
+    font-size: 64px;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #3f3d56;
+}
+
+/* Feature part End here */
+
+/* Blog part Start here */
+.blog {
+    padding: 10px 50px 47px;
+}
+
+.col {
+    width: 33.3%;
+    float: left;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 34px;
+}
+
+.content img {
+    width: 100%;
+    height: 169px;
+    padding-bottom: 31px;
+}
+
+.content h3 {
+    font-size: 19px;
+    color: #3f3d56;
+    margin: 0;
+}
+
+.content p {
+    color: #3f3d56;
+    font-size: 13px;
+}
+
+.pink {
+    background: #FEECEC;
+}
+
+.pink:hover {
+    background: #FFC0CB;
+}
+
+.gray {
+    background: #EAF9F4;
+}
+
+.gray:hover {
+    background: #BDF5E2;
+}
+
+.yellow {
+    background: #FFF8E8;
+}
+
+.yellow:hover {
+    background: #F5DBA2;
+}
+
+/* Blog part End here */
+/* Footer part Start Here */
+.footer {
+    text-align: center;
+    box-shadow: 0px -1px 1px #0000004f;
+    padding: 5px 0;
+}
+
+.footer p {
+    font-size: 15px;
+    color: #3f3d56;
+}
